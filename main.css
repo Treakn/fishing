@@ -181,6 +181,7 @@ nav{
 }
 .mobile-items.active{
     position: fixed;
+    gap: 10px;
     z-index: 5;
     width: 100%;
     background-color: var(--dark);
