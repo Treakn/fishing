@@ -279,9 +279,22 @@ border: none;
     }
     .mobile-img{
         transform: translateY(0);
-        left: 474px;
+        left: 382px;
     }
     .mobile-img img{
         width: 200px;
+    }
+}
+
+@media (min-width:1400px){
+    .mobile-img{
+        transform: translateY(0);
+        left: 581px;
+    }
+}
+@media (min-width:1600px){
+    .mobile-img{
+        transform: translateY(0);
+        left: 658px;
     }
 }
