@@ -4,9 +4,10 @@
 /* --------------------section-1------------------ */
 /* ----------------------------------------------- */
 .section-1{
+   
     position: relative;
     margin-top: 100px;
-    height: 50vh;
+    
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;

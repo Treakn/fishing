@@ -65,6 +65,7 @@ nav{
  background: none;
  cursor: pointer;
  border: none;
+ margin-left: 5px;
 }
 
 .burger span{
@@ -179,6 +180,8 @@ nav{
     border: none;
 }
 .mobile-items.active{
+    position: fixed;
+    z-index: 5;
     width: 100%;
     background-color: var(--dark);
     height: 100vh;
@@ -205,8 +208,7 @@ nav{
     font-size: 28px;
     text-decoration: none;
     color: var(--light);
-    margin: 16px;
-    padding: 16px;
+    
 }
 .mobile-items a{
     display: none;
